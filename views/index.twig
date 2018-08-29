@@ -1,0 +1,7 @@
+{% extends 'layout.twig' %}
+
+{% block body %}
+  <h1>{{title}}</h1>
+  <h2></h2>
+  <p>{{ data|json_encode() }}</p>
+{% endblock %}
